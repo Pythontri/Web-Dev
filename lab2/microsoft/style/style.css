@@ -1,0 +1,134 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+.upper-lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.right-list{
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-list{
+    display: flex;
+    padding-left: 60px;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.main-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height:auto;
+}
+.banner>a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.banner{
+    background-color: #0b68c4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #0067b8;
+    font-weight: 600;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+}
+.medium-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 24px;
+    flex-wrap: wrap;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.card {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0067b8;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.card-content {
+    padding: 24px;
+}
+.card-image {
+    width: 100%;
+    height: 167px;
+    object-fit: cover;
+}
+.white-window{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(123, 123, 123);
+    width: 450px;
+    height: 250px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    font-size: 18px;
+
+}
+.shop-now{
+    background-color: #0b68c4;
+    color: white;
+    width: 300px;
+    height: 80px;
+    border-color: white;
+    font-size: 26px;
+}

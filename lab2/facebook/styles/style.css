@@ -1,0 +1,71 @@
+ol{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+.button1{
+    background-color: #0b68c4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+
+}
+.button2{
+    background-color: #0bc413;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+loginwindow{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginwindow{
+    display: inline-block; /* Устанавливаем блочно-строчный тип для контейнера */
+    border-style: solid; /* Добавляем рамку вокруг контейнера */
+    border-width: 0.5px; /* Устанавливаем толщину рамки */
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-color: #8e8e8e;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+.logo{
+    max-width: 280px;
+}
+.login-window{
+    border-style: solid;
+    border-width: 0.5px;
+    padding : 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+h2{
+    font-weight: lighter;
+}
+.linklogin{
+    display: flex;
+    justify-content: center;
+}
+
