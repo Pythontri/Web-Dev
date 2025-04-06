@@ -6,8 +6,8 @@ li{
     margin-bottom: 10px;
 }
 .button1{
-    background-color: #0b68c4;
-    color: white;
+    background-color: #0d52db;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@ loginwindow{
     padding-right: 10px;
     padding-left: 10px;
     margin-left: 10px;
-    border-color: #8e8e8e;
+    border-color: #000000;
 }
 .container{
     display: flex;

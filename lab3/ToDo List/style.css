@@ -1,0 +1,56 @@
+#header, #header-two {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .add-block {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #add-task {
+    padding: 8px;
+    width: 250px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+  }
+  
+  #add-button {
+    padding: 8px 20px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #add-button:hover {
+    background-color: royalblue;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    margin: 8px auto;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .delete-button img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  
+  .delete-button:hover img {
+    opacity: 1;
+  }
+  
