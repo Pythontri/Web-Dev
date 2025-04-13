@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, ParamMap, RouterModule} from "@angular/router";
 
@@ -20,26 +19,3 @@ export class AlbumDetailComponent implements OnInit{
     })
   }
 }
-=======
-import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, ParamMap, RouterModule} from "@angular/router";
-
-@Component({
-  selector: 'app-album-detail',
-  standalone: true,
-  imports: [RouterModule],
-  templateUrl: './album-detail.component.html',
-  styleUrl: './album-detail.component.css'
-})
-export class AlbumDetailComponent implements OnInit{
-
-  constructor(private route: ActivatedRoute) {
-  }
-
-  ngOnInit(): void {
-    this.route.paramMap.subscribe((params :ParamMap): void => {
-      console.log(params);
-    })
-  }
-}
->>>>>>> 2b7fc7606ef1912692e8954991b3f1e3dd050455

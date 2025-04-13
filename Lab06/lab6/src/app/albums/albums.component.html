@@ -1,4 +1,3 @@
-<<<<<<< HEAD
   <li *ngFor="let album of albums">
     <a [routerLink]="['/albums', album.id]">{{album.id}}) {{album.title}}</a>
     <button (click)="deleteAlbum(album.id)">x</button>
@@ -11,17 +10,3 @@
     <textarea [(ngModel)]="newAlbum.userId" id="userId"></textarea> <br />
     <button (click)="addAlbum()">Add album</button>
   </fieldset>
-=======
-  <li *ngFor="let album of albums">
-    <a [routerLink]="['/albums', album.id]">{{album.id}}) {{album.title}}</a>
-    <button (click)="deleteAlbum(album.id)">x</button>
-  </li>
-
-  <fieldset>
-    <label for="title">Title:</label>
-    <input type="text" [(ngModel)]="newAlbum.title" id="title"> <br />
-    <label for="userId">Post description:</label>
-    <textarea [(ngModel)]="newAlbum.userId" id="userId"></textarea> <br />
-    <button (click)="addAlbum()">Add album</button>
-  </fieldset>
->>>>>>> 2b7fc7606ef1912692e8954991b3f1e3dd050455
